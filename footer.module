@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 /**
  * Implements hook_block_info().
  */
 function footer_block_info() {
   $blocks['footer'] = array(
-    'info' => t('SBD Footer'), 
+    'info' => t('Footer, Spyder Byte Design'),
   );
 
   return $blocks;
